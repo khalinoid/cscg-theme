@@ -23,7 +23,7 @@ function cardano_ui_enqueue_styles() {
     wp_enqueue_style( 'cardano-ui-basic-style', get_template_directory_uri() . '/css/basic-style.css' );
     wp_enqueue_style( 'cardano-ui-header-style', get_template_directory_uri() . '/css/header.css' );
     wp_enqueue_style( 'cardano-ui-main-content-style', get_template_directory_uri() . '/css/main-content.css' );
-    wp_enqueue_style( 'cardano-ui-footer-style', get_template_directory_uri() . '/css/footer.css' );
+    wp_enqueue_style( 'cardano-ui-footer-style', get_template_directory_uri() . '/css/style.css' );
     wp_enqueue_style( 'cardano-ui-responsive-design', get_template_directory_uri() . '/css/responsive-design.css' );
     wp_enqueue_style( 'cardano-ui-front-page', get_template_directory_uri() . '/css/front-page.css' );
     wp_enqueue_style('cardano-ui-comments-style', get_template_directory_uri() . '/css/comments.css');
