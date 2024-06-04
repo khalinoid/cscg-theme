@@ -1,0 +1,21 @@
+/* Footer Styles */
+#main-footer {
+  margin-top: 1rem;
+  min-height: 70px;
+}
+
+#main-footer hr {
+  color: var(--primary-text-color);
+  background: var(--primary-text-color);
+  height: 2px;
+}
+
+#main-footer .footer-nav ul {
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+#main-footer .footer-nav ul a {
+  color: var(--primary-text-color);
+}
+  

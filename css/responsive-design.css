@@ -1,0 +1,32 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .header-content nav a {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-content {
+    width: 95%;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
