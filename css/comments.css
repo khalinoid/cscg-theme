@@ -1,10 +1,10 @@
-.cscg-theme-comment-list {
+.comment-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.cscg-theme-comment-body {
+.comment-body {
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 15px;
@@ -13,113 +13,113 @@
   position: relative;
 }
 
-.cscg-theme-comment-author {
+.comment-author {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.cscg-theme-comment-author img {
+.comment-author img {
   margin-right: 10px;
   border-radius: 50%;
 }
 
-.cscg-theme-comment-author-details {
+.comment-author-details {
   display: flex;
   flex-direction: column;
 }
 
-.cscg-theme-comment-author-details .fn {
+.comment-author-details .fn {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.cscg-theme-comment-author-details .user-role {
+.comment-author-details .user-role {
   font-size: 0.9em;
   color: #777;
 }
 
-.cscg-theme-comment-metadata {
+.comment-metadata {
   font-size: 0.9em;
   color: #555;
   margin-bottom: 10px;
 }
 
-.cscg-theme-comment-metadata a {
+.comment-metadata a {
   color: #555;
 }
 
-.cscg-theme-comment-content {
+.comment-content {
   margin-bottom: 10px;
 }
 
-.cscg-theme-comment-extra {
+.comment-extra {
   font-size: 0.9em;
   color: #999;
   margin-bottom: 10px;
 }
 
-.cscg-theme-reply {
+.reply {
   font-size: 0.9em;
   text-align: right;
 }
 
-.cscg-theme-reply a {
+.reply a {
   color: #0073aa;
   text-decoration: none;
 }
 
-.cscg-theme-reply a:hover {
+.reply a:hover {
   text-decoration: underline;
 }
 
-.cscg-theme-comment-body .edit-link {
+.comment-body .edit-link {
   margin-left: 10px;
   font-size: 0.9em;
 }
 
-.cscg-theme-comment-form {
+.comment-form {
   margin-top: 2em;
 }
 
-.cscg-theme-comment-form-author,
-.cscg-theme-comment-form-email,
-.cscg-theme-comment-form-url,
-.cscg-theme-comment-form-comment,
-.cscg-theme-comment-form-rating {
+.comment-form-author,
+.comment-form-email,
+.comment-form-url,
+.comment-form-comment,
+.comment-form-rating {
   margin-bottom: 1em;
 }
 
-.cscg-theme-comment-form-author label,
-.cscg-theme-comment-form-email label,
-.cscg-theme-comment-form-url label,
-.cscg-theme-comment-form-comment label,
-.cscg-theme-comment-form-rating label {
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label,
+.comment-form-comment label,
+.comment-form-rating label {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 
-.cscg-theme-comment-form-author input,
-.cscg-theme-comment-form-email input,
-.cscg-theme-comment-form-url input,
-.cscg-theme-comment-form-comment textarea,
-.cscg-theme-comment-form-rating select {
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input,
+.comment-form-comment textarea,
+.comment-form-rating select {
   width: 100%;
   padding: 0.5em;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.cscg-theme-comment-form-comment textarea {
+.comment-form-comment textarea {
   height: 150px;
 }
 
-.cscg-theme-comment-form-rating select {
+.comment-form-rating select {
   width: auto;
 }
 
-.cscg-theme-comment-form .cscg-theme-submit {
+.comment-form .submit {
   background: #0073aa;
   color: #fff;
   padding: 0.5em 1em;
@@ -128,7 +128,7 @@
   cursor: pointer;
 }
 
-.cscg-theme-comment-form .cscg-theme-submit:hover {
+.comment-form .submit:hover {
   background: #005177;
 }
 

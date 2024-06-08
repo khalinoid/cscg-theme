@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="cscg-theme-content" class="cscg-theme-site-content">
+<main id="content" class="site-content">
     <?php
     if (have_posts()) :
         while (have_posts()) : the_post();

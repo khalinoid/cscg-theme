@@ -1,40 +1,41 @@
-.cscg-theme-custom-post {
-  margin-bottom: 30px;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/* Style for posts */
+.custom-post {
+  margin-bottom: 30px; /* Increase margin bottom for more separation */
+  border: 1px solid #e0e0e0; /* Lighter border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
-.cscg-theme-custom-post .cscg-theme-entry-header {
-  padding: 20px;
-  border-bottom: 1px solid #e0e0e0;
+.custom-post .entry-header {
+  padding: 20px; /* Add padding to the header */
+  border-bottom: 1px solid #e0e0e0; /* Border bottom for header */
 }
 
-.cscg-theme-custom-post .cscg-theme-entry-title a {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
+.custom-post .entry-title a {
+  font-size: 24px; /* Larger font size for title */
+  font-weight: bold; /* Bold title */
+  color: #333; /* Darker title color */
 }
 
-.cscg-theme-custom-post .cscg-theme-entry-content {
-  padding: 20px;
+.custom-post .entry-content {
+  padding: 20px; /* Add padding to the content */
 }
 
-.cscg-theme-custom-post .cscg-theme-entry-content p {
-  line-height: 1.6;
+.custom-post .entry-content p {
+  line-height: 1.6; /* Increase line height for better readability */
 }
 
-.cscg-theme-custom-post .cscg-theme-entry-footer {
-  padding: 20px;
-  border-top: 1px solid #e0e0e0;
+.custom-post .entry-footer {
+  padding: 20px; /* Add padding to the footer */
+  border-top: 1px solid #e0e0e0; /* Border top for footer */
 }
 
-.cscg-theme-custom-post .cscg-theme-read-more {
-  font-weight: bold;
-  color: #007bff;
+.custom-post .read-more {
+  font-weight: bold; /* Bold read more link */
+  color: #007bff; /* Blue read more link color */
 }
 
-.cscg-theme-custom-post .cscg-theme-read-more:hover {
-  text-decoration: underline;
+.custom-post .read-more:hover {
+  text-decoration: underline; /* Underline on hover */
 }
