@@ -7,21 +7,21 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
-    <main id="main-content" class="site-main">
+<div id="cscg-theme-primary" class="cscg-theme-content-area">
+    <main id="cscg-theme-main-content" class="cscg-theme-site-main">
 
         <!-- Showcase Section -->
-        <div class="showcase">
+        <div class="cscg-theme-showcase">
             <div><h1>CSCG</h1></div>
             <div><h3>Cardano Smart Contract Generator</h3></div>
             <div><h6>Generate your smart contracts today!</h6></div>
         </div>
         <!-- End Showcase Section -->
 
-        <div class="front-page-container">
-        <section class="section section-content">
-          <div class="section-direction">
-            <div class="card">
+        <div class="cscg-theme-front-page-container">
+        <section class="cscg-theme-section cscg-theme-section-content">
+          <div class="cscg-theme-section-direction">
+            <div class="cscg-theme-card">
               <svg
                 version="1.1"
                 id="Layer_1"
@@ -201,15 +201,15 @@ get_header(); ?>
        z"
                 />
               </svg>
-              <div class="card-body">
-                <h5 class="card-title">FILL A FORM</h5>
-                <p class="card-text">
+              <div class="cscg-theme-card-body">
+                <h5 class="cscg-theme-card-title">FILL A FORM</h5>
+                <p class="cscg-theme-card-text">
                   Promoting critical thinking skills and rational
                   decision-making to help youth navigate complex
                 </p>
               </div>
             </div>
-            <div class="arrow-container">
+            <div class="cscg-theme-arrow-container">
               <div>
                 <svg
                   version="1.1"
@@ -252,7 +252,7 @@ get_header(); ?>
                 </svg>
               </div>
             </div>
-            <div class="card">
+            <div class="cscg-theme-card">
               <svg
                 version="1.1"
                 id="Layer_1"
@@ -370,31 +370,31 @@ get_header(); ?>
        z"
                 />
               </svg>
-              <div class="card-body">
-                <h5 class="card-title">GET SMART CONTRACT</h5>
-                <p class="card-text">
+              <div class="cscg-theme-card-body">
+                <h5 class="cscg-theme-card-title">GET SMART CONTRACT</h5>
+                <p class="cscg-theme-card-text">
                   Promoting critical thinking skills and rational
                   decision-making to help youth navigate complex
                 </p>
               </div>
             </div>
           </div>
-          <div class="form-generate">
-            <div class="form-heading">
+          <div class="cscg-theme-form-generate">
+            <div class="cscg-theme-form-heading">
               <div><h2>Generate Smart Contract</h2></div>
             </div>
-            <div class="form-container">
-              <div class="form-label">
+            <div class="cscg-theme-form-container">
+              <div class="cscg-theme-form-label">
                 <h3>Contract Detail</h3>
               </div>
-              <form class="form">
+              <form class="cscg-theme-form">
                 <div>
                   <p>
                     We will use this information to generate the smart contract
                     you need
                   </p>
                 </div>
-                <div class="form-wrapper">
+                <div class="cscg-theme-form-wrapper">
                   <label for="module-name">Module Name</label>
                   <input
                     type="text"
@@ -403,16 +403,16 @@ get_header(); ?>
                     placeholder="Module Name"
                   />
                 </div>
-                <div class="form-wrapper">
+                <div class="cscg-theme-form-wrapper">
                   <label for="contract-type">Contract Type</label>
                   <select name="contract-type" id="contract-type">
                     <option value="nft">NFT</option>
                     <option value="vesting">Vesting</option>
                   </select>
                 </div>
-                <div class="form-wrapper">
+                <div class="cscg-theme-form-wrapper">
                   <input type="checkbox" name="get-mails" id="get-mails" />
-                  <label class="get-mails" for="get-mails"
+                  <label class="cscg-theme-get-mails" for="get-mails"
                     >Get emails with special offers, inspiration, tips, and
                     other updates from Viator. You can unsubscribe at any
                     time.</label

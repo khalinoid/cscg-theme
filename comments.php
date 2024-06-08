@@ -4,9 +4,9 @@ if (post_password_required()) {
 }
 ?>
 
-<div id="comments" class="comments-area">
+<div id="cscg-theme-comments" class="cscg-theme-comments-area">
     <?php if (have_comments()) : ?>
-        <h2 class="comments-title">
+        <h2 class="cscg-theme-comments-title">
             <?php
             printf(
                 _nx('One comment', '%1$s comments', get_comments_number(), 'comments title', 'cardano-ui'),
@@ -14,7 +14,7 @@ if (post_password_required()) {
             );
             ?>
         </h2>
-        <ul class="comment-list">
+        <ul class="cscg-theme-comment-list">
             <?php
             wp_list_comments(array(
                 'style' => 'ul',
@@ -27,7 +27,7 @@ if (post_password_required()) {
     <?php endif; ?>
 
     <?php if (!comments_open()) : ?>
-        <p class="no-comments"><?php _e('Comments are closed.', 'cardano-ui'); ?></p>
+        <p class="cscg-theme-no-comments"><?php _e('Comments are closed.', 'cardano-ui'); ?></p>
     <?php endif; ?>
 
     <?php

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="content" class="site-content">
+<main id="cscg-theme-content" class="cscg-theme-site-content">
     <h1><?php _e('404 - Page Not Found', 'cardano-ui'); ?></h1>
     <p><?php _e('Sorry, the page you are looking for could not be found.', 'cardano-ui'); ?></p>
 </main>

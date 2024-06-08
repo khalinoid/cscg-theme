@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main id="content" class="site-content">
+<main id="cscg-theme-content" class="cscg-theme-site-content">
     <?php
     while (have_posts()) : the_post();
         get_template_part('template-parts/content', 'page');

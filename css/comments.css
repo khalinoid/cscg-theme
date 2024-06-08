@@ -1,10 +1,10 @@
-.comment-list {
+.cscg-theme-comment-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.comment-body {
+.cscg-theme-comment-body {
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 15px;
@@ -13,113 +13,113 @@
   position: relative;
 }
 
-.comment-author {
+.cscg-theme-comment-author {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.comment-author img {
+.cscg-theme-comment-author img {
   margin-right: 10px;
   border-radius: 50%;
 }
 
-.comment-author-details {
+.cscg-theme-comment-author-details {
   display: flex;
   flex-direction: column;
 }
 
-.comment-author-details .fn {
+.cscg-theme-comment-author-details .fn {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.comment-author-details .user-role {
+.cscg-theme-comment-author-details .user-role {
   font-size: 0.9em;
   color: #777;
 }
 
-.comment-metadata {
+.cscg-theme-comment-metadata {
   font-size: 0.9em;
   color: #555;
   margin-bottom: 10px;
 }
 
-.comment-metadata a {
+.cscg-theme-comment-metadata a {
   color: #555;
 }
 
-.comment-content {
+.cscg-theme-comment-content {
   margin-bottom: 10px;
 }
 
-.comment-extra {
+.cscg-theme-comment-extra {
   font-size: 0.9em;
   color: #999;
   margin-bottom: 10px;
 }
 
-.reply {
+.cscg-theme-reply {
   font-size: 0.9em;
   text-align: right;
 }
 
-.reply a {
+.cscg-theme-reply a {
   color: #0073aa;
   text-decoration: none;
 }
 
-.reply a:hover {
+.cscg-theme-reply a:hover {
   text-decoration: underline;
 }
 
-.comment-body .edit-link {
+.cscg-theme-comment-body .edit-link {
   margin-left: 10px;
   font-size: 0.9em;
 }
 
-.comment-form {
+.cscg-theme-comment-form {
   margin-top: 2em;
 }
 
-.comment-form-author,
-.comment-form-email,
-.comment-form-url,
-.comment-form-comment,
-.comment-form-rating {
+.cscg-theme-comment-form-author,
+.cscg-theme-comment-form-email,
+.cscg-theme-comment-form-url,
+.cscg-theme-comment-form-comment,
+.cscg-theme-comment-form-rating {
   margin-bottom: 1em;
 }
 
-.comment-form-author label,
-.comment-form-email label,
-.comment-form-url label,
-.comment-form-comment label,
-.comment-form-rating label {
+.cscg-theme-comment-form-author label,
+.cscg-theme-comment-form-email label,
+.cscg-theme-comment-form-url label,
+.cscg-theme-comment-form-comment label,
+.cscg-theme-comment-form-rating label {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
 
-.comment-form-author input,
-.comment-form-email input,
-.comment-form-url input,
-.comment-form-comment textarea,
-.comment-form-rating select {
+.cscg-theme-comment-form-author input,
+.cscg-theme-comment-form-email input,
+.cscg-theme-comment-form-url input,
+.cscg-theme-comment-form-comment textarea,
+.cscg-theme-comment-form-rating select {
   width: 100%;
   padding: 0.5em;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.comment-form-comment textarea {
+.cscg-theme-comment-form-comment textarea {
   height: 150px;
 }
 
-.comment-form-rating select {
+.cscg-theme-comment-form-rating select {
   width: auto;
 }
 
-.comment-form .submit {
+.cscg-theme-comment-form .cscg-theme-submit {
   background: #0073aa;
   color: #fff;
   padding: 0.5em 1em;
@@ -128,7 +128,7 @@
   cursor: pointer;
 }
 
-.comment-form .submit:hover {
+.cscg-theme-comment-form .cscg-theme-submit:hover {
   background: #005177;
 }
 

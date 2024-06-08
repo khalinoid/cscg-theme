@@ -1,22 +1,22 @@
 /* Responsive Design */
 @media (max-width: 768px) {
-  .header-content {
+  .cscg-theme-header-content {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .header-content nav {
+  .cscg-theme-header-content nav {
     flex-direction: column;
     width: 100%;
   }
 
-  .header-content nav a {
+  .cscg-theme-header-content nav a {
     margin: 10px 0;
   }
 }
 
 @media (max-width: 480px) {
-  .site-content {
+  .cscg-theme-site-content {
     width: 95%;
   }
 }
