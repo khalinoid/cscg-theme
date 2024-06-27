@@ -7,18 +7,16 @@
 
 get_header(); ?>
 
-<div id="primary" class="content-area">
-    <main id="main-content" class="site-main">
+<div id="main-header">
 
-        <!-- Showcase Section -->
-        <div class="showcase">
-            <div><h1>CSCG</h1></div>
-            <div><h3>Cardano Smart Contract Generator</h3></div>
-            <div><h6>Generate your smart contracts today!</h6></div>
-        </div>
-        <!-- End Showcase Section -->
-
-        <div class="front-page-container">
+  <div class="showcase">
+    <div><h1>CSCG</h1></div>
+    <div><h3>Cardano Smart Contract Generator</h3></div>
+    <div><h6>Generate your smart contracts today!</h6></div>
+  </div>
+</div>
+    <main id="main-content">
+      <div class="container">
         <section class="section section-content">
           <div class="section-direction">
             <div class="card">
@@ -383,51 +381,328 @@ get_header(); ?>
             <div class="form-heading">
               <div><h2>Generate Smart Contract</h2></div>
             </div>
-            <div class="form-container">
-              <div class="form-label">
-                <h3>Contract Detail</h3>
-              </div>
-              <form class="form">
-                <div>
-                  <p>
-                    We will use this information to generate the smart contract
-                    you need
-                  </p>
-                </div>
-                <div class="form-wrapper">
-                  <label for="module-name">Module Name</label>
-                  <input
-                    type="text"
-                    name="module-name"
-                    id="module-name"
-                    placeholder="Module Name"
-                  />
-                </div>
-                <div class="form-wrapper">
-                  <label for="contract-type">Contract Type</label>
-                  <select name="contract-type" id="contract-type">
-                    <option value="nft">NFT</option>
-                    <option value="vesting">Vesting</option>
-                  </select>
-                </div>
-                <div class="form-wrapper">
-                  <input type="checkbox" name="get-mails" id="get-mails" />
-                  <label class="get-mails" for="get-mails"
-                    >Get emails with special offers, inspiration, tips, and
-                    other updates from Viator. You can unsubscribe at any
-                    time.</label
+          </div>
+        </section>
+        <section id="card-section">
+          <div class="container">
+            <div class="card-container">
+              <div class="card">
+                <div class="card-img">
+                  <svg
+                    version="1.0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="97.000000pt"
+                    height="91.000000pt"
+                    viewBox="0 0 97.000000 91.000000"
+                    preserveAspectRatio="xMidYMid meet"
                   >
+                    <g
+                      transform="translate(0.000000,91.000000) scale(0.100000,-0.100000)"
+                      fill="#000000"
+                      stroke="none"
+                    >
+                      <path
+                        d="M303 730 c-88 -53 -96 -170 -17 -240 29 -25 43 -30 88 -30 118 0 190
+111 137 210 -40 75 -137 104 -208 60z m141 -71 c30 -35 32 -58 11 -99 -38 -73
+-165 -44 -165 38 0 54 37 91 92 92 28 0 42 -7 62 -31z"
+                      />
+                      <path
+                        d="M567 743 c-15 -14 -6 -44 16 -52 31 -12 56 -42 63 -77 4 -24 0 -37
+-21 -62 -14 -17 -35 -34 -45 -37 -24 -7 -27 -43 -5 -51 24 -10 74 16 100 50
+35 47 41 95 17 150 -27 59 -99 105 -125 79z"
+                      />
+                      <path
+                        d="M165 359 c-40 -36 -58 -85 -53 -149 3 -40 6 -45 28 -45 23 0 25 4 31
+64 10 103 36 115 237 109 117 -3 123 -4 149 -31 22 -21 29 -39 33 -85 4 -49 8
+-57 27 -60 17 -3 24 3 29 23 10 40 -3 113 -27 146 -38 53 -61 59 -248 59
+l-170 0 -36 -31z"
+                      />
+                      <path
+                        d="M687 383 c-15 -14 -6 -44 16 -52 40 -15 59 -48 66 -108 5 -50 9 -58
+28 -61 17 -3 24 3 29 23 8 33 -2 99 -22 136 -23 46 -96 84 -117 62z"
+                      />
+                    </g>
+                  </svg>
                 </div>
-                <button type="submit">GENERATE SMART CONTRACT CODE</button>
-              </form>
+                <div class="card-content">
+                  <div>
+                    <h2>245</h2>
+                  </div>
+                  <div>
+                    <p>Users</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img">
+                  <svg
+                    version="1.0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="92.000000pt"
+                    height="101.000000pt"
+                    viewBox="0 0 92.000000 101.000000"
+                    preserveAspectRatio="xMidYMid meet"
+                  >
+                    <g
+                      transform="translate(0.000000,101.000000) scale(0.100000,-0.100000)"
+                      fill="#000000"
+                      stroke="none"
+                    >
+                      <path
+                        d="M146 864 c-3 -9 -6 -170 -6 -359 0 -278 3 -345 14 -354 9 -8 91 -11
+277 -9 l264 3 3 253 2 252 -103 0 c-67 0 -107 4 -115 12 -8 8 -12 48 -12 115
+l0 103 -159 0 c-136 0 -160 -2 -165 -16z m231 -90 c9 -24 -16 -34 -77 -32 -48
+3 -55 6 -58 26 -3 21 0 22 63 22 51 0 67 -4 72 -16z m-2 -99 c0 -18 -8 -20
+-67 -23 -67 -3 -68 -3 -68 23 0 26 1 26 68 23 59 -3 67 -5 67 -23z m3 -248 c6
+-6 14 -25 17 -40 6 -24 11 -27 34 -22 19 4 35 0 53 -15 15 -11 41 -20 60 -20
+39 0 74 -21 64 -38 -4 -7 -31 -12 -62 -12 -42 0 -58 5 -71 20 -10 11 -23 20
+-30 20 -6 0 -15 -9 -18 -20 -11 -36 -43 -24 -56 20 l-12 40 -21 -37 c-18 -32
+-27 -38 -59 -41 -31 -3 -37 0 -37 16 0 13 10 24 29 30 19 7 31 19 35 39 15 61
+50 89 74 60z"
+                      />
+                      <path
+                        d="M520 790 l0 -90 90 0 c66 0 90 3 90 13 0 16 -151 167 -168 167 -9 0
+-12 -26 -12 -90z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <h2>245</h2>
+                  </div>
+                  <div>
+                    <p>Contracts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img">
+                  <svg
+                    version="1.0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="75.000000pt"
+                    height="74.000000pt"
+                    viewBox="0 0 75.000000 74.000000"
+                    preserveAspectRatio="xMidYMid meet"
+                  >
+                    <g
+                      transform="translate(0.000000,74.000000) scale(0.100000,-0.100000)"
+                      fill="#000000"
+                      stroke="none"
+                    >
+                      <path
+                        d="M307 609 c-57 -13 -90 -33 -131 -79 -51 -56 -66 -97 -66 -174 0 -50
+             6 -75 28 -117 123 -237 482 -151 482 115 0 167 -155 293 -313 255z m161 -45
+             c218 -109 141 -437 -103 -437 -169 0 -283 171 -214 323 27 60 54 88 114 116
+             68 32 136 32 203 -2z"
+                      />
+                      <path
+                        d="M254 457 c-11 -29 0 -72 19 -75 16 -3 18 2 15 39 -3 43 -23 64 -34
+             36z"
+                      />
+                      <path
+                        d="M440 451 c-14 -28 -2 -73 19 -69 21 4 27 61 7 77 -12 10 -17 9 -26
+             -8z"
+                      />
+                      <path
+                        d="M214 275 c-9 -23 24 -65 64 -82 51 -21 131 -20 178 3 42 20 73 69 56
+             86 -7 7 -14 0 -23 -19 -40 -83 -217 -82 -249 2 -11 29 -18 31 -26 10z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <h2>245</h2>
+                  </div>
+                  <div>
+                    <p>Guest Satisfaction</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-img">
+                  <svg
+                    version="1.0"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="91.000000pt"
+                    height="85.000000pt"
+                    viewBox="0 0 91.000000 85.000000"
+                    preserveAspectRatio="xMidYMid meet"
+                  >
+                    <g
+                      transform="translate(0.000000,85.000000) scale(0.100000,-0.100000)"
+                      fill="#000000"
+                      stroke="none"
+                    >
+                      <path
+                        d="M360 755 c-104 -32 -180 -139 -180 -252 0 -35 7 -79 15 -98 14 -35
+14 -35 -51 -140 -75 -120 -78 -148 -15 -115 53 26 58 26 66 -10 4 -16 13 -30
+21 -30 7 0 35 34 61 75 34 53 52 73 63 69 58 -23 117 -26 170 -11 30 9 55 15
+56 14 1 -1 22 -35 48 -74 25 -40 51 -73 57 -73 6 0 16 14 22 30 13 36 16 36
+67 10 22 -11 42 -20 45 -20 16 0 -2 42 -60 135 l-64 104 16 47 c22 65 13 160
+-21 218 -65 111 -192 159 -316 121z m197 -49 c73 -38 117 -116 117 -206 0
+-135 -96 -230 -231 -230 -184 0 -294 207 -190 361 64 95 201 129 304 75z
+m-294 -401 c15 -13 27 -27 27 -31 0 -4 -14 -29 -32 -57 l-31 -49 -14 26 c-12
+22 -17 25 -34 15 -12 -6 -23 -8 -26 -6 -5 5 69 127 77 127 3 0 17 -12 33 -25z
+m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
+-32 53 -32 57 0 7 51 55 60 56 3 0 22 -27 43 -61z"
+                      />
+                      <path
+                        d="M408 640 c-22 -52 -25 -55 -100 -65 -28 -4 -48 -11 -48 -19 0 -6 18
+-30 41 -51 43 -42 42 -40 23 -137 -7 -36 10 -36 74 -4 l47 24 45 -24 c63 -32
+83 -32 76 4 -19 97 -20 95 23 137 23 21 41 45 41 51 0 8 -20 15 -47 19 -76 10
+-79 13 -101 65 -13 31 -27 50 -37 50 -10 0 -24 -19 -37 -50z m62 -50 c18 -35
+25 -40 54 -40 47 0 50 -9 17 -44 -27 -28 -29 -35 -21 -74 7 -38 5 -42 -9 -36
+-67 28 -70 28 -106 11 -20 -9 -37 -17 -39 -17 -2 0 0 19 5 43 7 38 5 45 -22
+73 -33 35 -30 44 17 44 29 0 36 5 54 40 11 22 22 40 25 40 3 0 14 -18 25 -40z"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <h2>245</h2>
+                  </div>
+                  <div>
+                    <p>Award</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="find-on-us-section">
+          <div class="card-container">
+            <div class="card">
+              <div class="card-heading">
+                <h2>CSCG</h2>
+              </div>
+              <div class="card-link">
+                <h3><a href="">Find On Us</a></h3>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li class="icon">
+                    <a href=""
+                      ><svg
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="52.000000pt"
+                        height="51.000000pt"
+                        viewBox="0 0 52.000000 51.000000"
+                        preserveAspectRatio="xMidYMid meet"
+                      >
+                        <g
+                          transform="translate(0.000000,51.000000) scale(0.100000,-0.100000)"
+                          fill="#000000"
+                          stroke="none"
+                        >
+                          <path
+                            d="M243 496 c-42 -19 -67 -59 -73 -120 l-5 -51 -43 -3 -43 -3 3 -52 3
+                   -52 37 -3 37 -3 3 -87 3 -87 55 0 55 0 3 87 3 87 32 3 c28 3 33 8 44 48 17 59
+                   12 70 -37 70 -31 0 -40 4 -40 18 0 29 13 40 50 44 l35 3 0 55 0 55 -45 2 c-25
+                   2 -59 -4 -77 -11z m107 -46 c0 -25 -4 -30 -25 -30 -39 0 -67 -34 -63 -78 3
+                   -35 5 -37 41 -40 37 -3 44 -13 31 -46 -4 -10 -18 -16 -40 -16 l-34 0 0 -90 0
+                   -90 -40 0 -40 0 0 90 0 90 -40 0 c-38 0 -40 2 -40 30 0 29 2 30 45 30 l45 0 0
+                   50 c0 55 19 103 47 119 10 6 39 11 66 11 46 0 47 -1 47 -30z"
+                          />
+                        </g></svg
+                    ></a>
+                  </li>
+                  <li class="icon">
+                    <a href=""
+                      ><svg
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="47.000000pt"
+                        height="45.000000pt"
+                        viewBox="0 0 47.000000 45.000000"
+                        preserveAspectRatio="xMidYMid meet"
+                      >
+                        <g
+                          transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)"
+                          fill="#000000"
+                          stroke="none"
+                        >
+                          <path
+                            d="M58 411 l-33 -29 -3 -137 c-6 -220 -1 -225 213 -225 214 0 219 5 213
+                   225 l-3 137 -33 29 -32 29 -145 0 -145 0 -32 -29z m331 -37 c19 -24 21 -40 21
+                   -149 0 -173 3 -170 -175 -170 -178 0 -175 -3 -175 170 0 109 2 125 21 149 20
+                   26 22 26 154 26 132 0 134 0 154 -26z"
+                          />
+                          <path
+                            d="M324 345 c-4 -9 -2 -21 4 -27 15 -15 44 -1 40 19 -4 23 -36 29 -44 8z"
+                          />
+                          <path
+                            d="M169 291 c-32 -33 -37 -67 -15 -110 14 -26 53 -51 81 -51 48 0 95 52
+                   95 105 0 40 -50 85 -95 85 -27 0 -44 -8 -66 -29z m99 -17 c43 -30 20 -104 -33
+                   -104 -53 0 -76 74 -33 104 12 9 27 16 33 16 6 0 21 -7 33 -16z"
+                          />
+                        </g></svg
+                    ></a>
+                  </li>
+                  <li class="icon">
+                    <a href=""
+                      ><svg
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="45.000000pt"
+                        height="47.000000pt"
+                        viewBox="0 0 45.000000 47.000000"
+                        preserveAspectRatio="xMidYMid meet"
+                      >
+                        <g
+                          transform="translate(0.000000,47.000000) scale(0.100000,-0.100000)"
+                          fill="#000000"
+                          stroke="none"
+                        >
+                          <path
+                            d="M30 444 c0 -3 30 -49 66 -101 36 -52 68 -101 70 -108 3 -7 -27 -49
+                   -65 -94 -39 -45 -71 -84 -71 -87 0 -2 6 -4 13 -4 8 0 43 34 78 75 35 41 66 75
+                   69 75 3 0 28 -34 55 -75 l50 -74 58 -1 c44 0 56 3 51 13 -4 6 -39 58 -77 114
+                   -62 91 -68 105 -56 120 7 10 40 48 72 86 46 52 55 67 40 67 -11 0 -43 -28 -77
+                   -70 -32 -38 -61 -70 -65 -70 -3 0 -28 32 -54 70 l-48 70 -55 0 c-29 0 -54 -3
+                   -54 -6z m212 -189 c65 -93 117 -173 118 -177 1 -18 -46 -6 -61 15 -8 12 -64
+                   93 -123 180 -104 152 -107 158 -80 155 25 -3 45 -27 146 -173z"
+                          />
+                        </g></svg
+                    ></a>
+                  </li>
+                  <li class="icon">
+                    <a href=""
+                      ><svg
+                        version="1.0"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="47.000000pt"
+                        height="42.000000pt"
+                        viewBox="0 0 47.000000 42.000000"
+                        preserveAspectRatio="xMidYMid meet"
+                      >
+                        <g
+                          transform="translate(0.000000,42.000000) scale(0.100000,-0.100000)"
+                          fill="#000000"
+                          stroke="none"
+                        >
+                          <path
+                            d="M207 320 c-104 -43 -191 -81 -194 -84 -11 -10 9 -25 56 -41 48 -16
+                   49 -17 66 -78 9 -34 19 -66 22 -70 3 -5 20 6 39 24 l33 32 46 -37 c72 -59 75
+                   -56 112 139 37 198 37 195 21 195 -7 0 -98 -36 -201 -80z m166 -2 c-4 -18 -16
+                   -81 -27 -140 l-21 -108 -50 40 c-37 29 -53 36 -62 28 -10 -8 -13 -5 -13 13 0
+                   15 21 45 58 83 31 32 53 57 47 54 -5 -3 -42 -24 -81 -47 -64 -38 -73 -40 -102
+                   -30 -18 6 -32 14 -32 18 0 7 256 118 277 120 9 1 11 -9 6 -31z"
+                          />
+                        </g></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
       </div>
-
-    </main><!-- #main-content -->
-</div><!-- #primary -->
-
+    </main>
 <?php
 get_sidebar();
 get_footer();
