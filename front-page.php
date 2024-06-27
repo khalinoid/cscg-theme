@@ -433,6 +433,8 @@ l-170 0 -36 -31z"
                   </div>
                 </div>
               </div>
+              <?php $contract = get_option('cscg_contracts',0);
+                if($contract > 0){?>
               <div class="card">
                 <div class="card-img">
                   <svg
@@ -467,15 +469,18 @@ l0 103 -159 0 c-136 0 -160 -2 -165 -16z m231 -90 c9 -24 -16 -34 -77 -32 -48
                     </g>
                   </svg>
                 </div>
+               
                 <div class="card-content">
                   <div>
-                    <h2>245</h2>
+                    <h2><?php echo $contract ?></h2>
                   </div>
                   <div>
                     <p>Contracts</p>
                   </div>
                 </div>
               </div>
+              <?php }?>
+<!--               
               <div class="card">
                 <div class="card-img">
                   <svg
@@ -520,8 +525,8 @@ l0 103 -159 0 c-136 0 -160 -2 -165 -16z m231 -90 c9 -24 -16 -34 -77 -32 -48
                     <p>Guest Satisfaction</p>
                   </div>
                 </div>
-              </div>
-              <div class="card">
+              </div> 
+               <div class="card">
                 <div class="card-img">
                   <svg
                     version="1.0"
@@ -560,7 +565,7 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
                       />
                     </g>
                   </svg>
-                </div>
+                </div> 
                 <div class="card-content">
                   <div>
                     <h2>245</h2>
@@ -570,6 +575,7 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
                   </div>
                 </div>
               </div>
+-->
             </div>
           </div>
         </section>
