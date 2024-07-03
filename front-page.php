@@ -426,7 +426,7 @@ l-170 0 -36 -31z"
                 </div>
                 <div class="card-content">
                   <div>
-                    <h2>245</h2>
+                    <h2><?php echo count(get_users())?></h2>
                   </div>
                   <div>
                     <p>Users</p>
