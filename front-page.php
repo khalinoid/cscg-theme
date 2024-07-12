@@ -484,7 +484,7 @@ l0 103 -159 0 c-136 0 -160 -2 -165 -16z m231 -90 c9 -24 -16 -34 -77 -32 -48
                 </div>
               </div>
               <?php }?>
-<!--               
+              
               <div class="card">
                 <div class="card-img">
                   <svg
@@ -523,14 +523,14 @@ l0 103 -159 0 c-136 0 -160 -2 -165 -16z m231 -90 c9 -24 -16 -34 -77 -32 -48
                 </div>
                 <div class="card-content">
                   <div>
-                    <h2>245</h2>
+                    <h2>11</h2>
                   </div>
                   <div>
                     <p>Guest Satisfaction</p>
                   </div>
                 </div>
               </div> 
-               <div class="card">
+               <!-- <div class="card">
                 <div class="card-img">
                   <svg
                     version="1.0"
@@ -578,8 +578,8 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
                     <p>Award</p>
                   </div>
                 </div>
-              </div>
--->
+              </div> -->
+
             </div>
           </div>
         </section>
@@ -595,79 +595,24 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
               <div class="social-icons">
                 <ul>
                   <li class="icon">
-                    <a href=""
-                      ><svg
-                        version="1.0"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="52.000000pt"
-                        height="51.000000pt"
-                        viewBox="0 0 52.000000 51.000000"
-                        preserveAspectRatio="xMidYMid meet"
-                      >
-                        <g
-                          transform="translate(0.000000,51.000000) scale(0.100000,-0.100000)"
-                          fill="#000000"
-                          stroke="none"
-                        >
-                          <path
-                            d="M243 496 c-42 -19 -67 -59 -73 -120 l-5 -51 -43 -3 -43 -3 3 -52 3
-                   -52 37 -3 37 -3 3 -87 3 -87 55 0 55 0 3 87 3 87 32 3 c28 3 33 8 44 48 17 59
-                   12 70 -37 70 -31 0 -40 4 -40 18 0 29 13 40 50 44 l35 3 0 55 0 55 -45 2 c-25
-                   2 -59 -4 -77 -11z m107 -46 c0 -25 -4 -30 -25 -30 -39 0 -67 -34 -63 -78 3
-                   -35 5 -37 41 -40 37 -3 44 -13 31 -46 -4 -10 -18 -16 -40 -16 l-34 0 0 -90 0
-                   -90 -40 0 -40 0 0 90 0 90 -40 0 c-38 0 -40 2 -40 30 0 29 2 30 45 30 l45 0 0
-                   50 c0 55 19 103 47 119 10 6 39 11 66 11 46 0 47 -1 47 -30z"
-                          />
-                        </g></svg
-                    ></a>
+                    <a href="https://github.com/EsubalewAmenu/CSCG-Cardano-Smart-Contract-Generator"><?php echo file_get_contents(get_template_directory() . '/assets/github.svg')?></a>
                   </li>
                   <li class="icon">
-                    <a href=""
-                      ><svg
-                        version="1.0"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="47.000000pt"
-                        height="45.000000pt"
-                        viewBox="0 0 47.000000 45.000000"
-                        preserveAspectRatio="xMidYMid meet"
-                      >
-                        <g
-                          transform="translate(0.000000,45.000000) scale(0.100000,-0.100000)"
-                          fill="#000000"
-                          stroke="none"
-                        >
-                          <path
-                            d="M58 411 l-33 -29 -3 -137 c-6 -220 -1 -225 213 -225 214 0 219 5 213
-                   225 l-3 137 -33 29 -32 29 -145 0 -145 0 -32 -29z m331 -37 c19 -24 21 -40 21
-                   -149 0 -173 3 -170 -175 -170 -178 0 -175 -3 -175 170 0 109 2 125 21 149 20
-                   26 22 26 154 26 132 0 134 0 154 -26z"
-                          />
-                          <path
-                            d="M324 345 c-4 -9 -2 -21 4 -27 15 -15 44 -1 40 19 -4 23 -36 29 -44 8z"
-                          />
-                          <path
-                            d="M169 291 c-32 -33 -37 -67 -15 -110 14 -26 53 -51 81 -51 48 0 95 52
-                   95 105 0 40 -50 85 -95 85 -27 0 -44 -8 -66 -29z m99 -17 c43 -30 20 -104 -33
-                   -104 -53 0 -76 74 -33 104 12 9 27 16 33 16 6 0 21 -7 33 -16z"
-                          />
-                        </g></svg
-                    ></a>
+                    <a href="https://www.linkedin.com/company/datascience-computing/"><?php echo file_get_contents(get_template_directory() . '/assets/linkedin.svg')?></a>
                   </li>
                   <li class="icon">
-                    <a href=""
+                    <a href="https://x.com/esubalewA"
                       ><svg
                         version="1.0"
                         xmlns="http://www.w3.org/2000/svg"
                         width="45.000000pt"
                         height="47.000000pt"
                         viewBox="0 0 45.000000 47.000000"
-                        preserveAspectRatio="xMidYMid meet"
-                      >
+                        preserveAspectRatio="xMidYMid meet">
                         <g
                           transform="translate(0.000000,47.000000) scale(0.100000,-0.100000)"
                           fill="#000000"
-                          stroke="none"
-                        >
+                          stroke="none">
                           <path
                             d="M30 444 c0 -3 30 -49 66 -101 36 -52 68 -101 70 -108 3 -7 -27 -49
                    -65 -94 -39 -45 -71 -84 -71 -87 0 -2 6 -4 13 -4 8 0 43 34 78 75 35 41 66 75
@@ -677,11 +622,10 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
                    -54 -6z m212 -189 c65 -93 117 -173 118 -177 1 -18 -46 -6 -61 15 -8 12 -64
                    93 -123 180 -104 152 -107 158 -80 155 25 -3 45 -27 146 -173z"
                           />
-                        </g></svg
-                    ></a>
+                        </g></svg></a>
                   </li>
                   <li class="icon">
-                    <a href=""
+                    <a href="https://t.me/programmersUnionEthiopia"
                       ><svg
                         version="1.0"
                         xmlns="http://www.w3.org/2000/svg"
@@ -703,8 +647,7 @@ m440 -36 c40 -64 42 -78 8 -60 -17 10 -22 7 -34 -15 l-14 -26 -31 49 c-18 28
                    15 21 45 58 83 31 32 53 57 47 54 -5 -3 -42 -24 -81 -47 -64 -38 -73 -40 -102
                    -30 -18 6 -32 14 -32 18 0 7 256 118 277 120 9 1 11 -9 6 -31z"
                           />
-                        </g></svg
-                    ></a>
+                        </g></svg></a>
                   </li>
                 </ul>
               </div>
