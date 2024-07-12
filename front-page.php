@@ -379,7 +379,11 @@ get_header(); ?>
           </div>
           <div class="form-generate">
             <div class="form-heading">
-              <div><h2>Generate Smart Contract</h2></div>
+              <div>
+                <a href="/smart-contract-generator">
+                  <h2>Generate Smart Contract</h2>
+                </a>
+              </div>
             </div>
           </div>
         </section>
