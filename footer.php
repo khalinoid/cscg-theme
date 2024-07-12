@@ -7,7 +7,7 @@
         <div class="theme-container">
             <div class="footer-nav">
                 <ul>
-                    <li><a href="#">@ All Copy Right are reserved 2024 AYLDC</a></li>
+                    <li><a href="#">@ All Copy Right are reserved 2024 DataScience PLC</a></li>
                     <!-- <li><a href="/policy">Refund Policy</a></li> -->
                     <li><a href="/community">Community Guidelines</a></li>
                     <li><a href="/terms">Terms & Conditions</a></li>
